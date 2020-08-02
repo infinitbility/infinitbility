@@ -40,7 +40,7 @@ class WebController extends Controller
         $metaTags = [
             "title" => "Infinitbility - Infinite Ability",
             "description" => "We have the ability to build infinite way for us",
-            "image" => $imagePrefix."infinitbility.jpeg",
+            "image" => $imagePrefix."home-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability"
         ];
 
@@ -73,7 +73,7 @@ class WebController extends Controller
         $metaTags = [
             "title" => "Infinitbility - About",
             "description" => "We have the ability to build infinite way for us",
-            "image" => $imagePrefix."infinitbility.jpeg",
+            "image" => $imagePrefix."about-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability, about"
         ];
 
@@ -102,7 +102,7 @@ class WebController extends Controller
         $metaTags = [
             "title" => "Infinitbility - Contact",
             "description" => "We have the ability to build infinite way for us",
-            "image" => $imagePrefix."infinitbility.jpeg",
+            "image" => $imagePrefix."contact-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability, contact"
         ];
 
