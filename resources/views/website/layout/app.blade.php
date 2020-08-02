@@ -21,6 +21,17 @@
   <meta name="description" content="<?php echo $metaTags['description']; ?>">
   <meta name="keywords" content="<?php echo $metaTags['keywords']; ?>">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173614282-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173614282-1');
+</script>
+
+
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="<?php echo $metaTags['title']; ?>">
   <meta itemprop="description" content="<?php echo $metaTags['description']; ?>">
