@@ -15,7 +15,8 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('css/weball.min.css') }}">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <script data-ad-client="ca-pub-5770268290169833" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- ADS -->
+  <script data-ad-client="ca-pub-6106226996374193" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- HTML Meta Tags -->
   <title><?php echo $metaTags['title']; ?></title>
   <meta name="description" content="<?php echo $metaTags['description']; ?>">
