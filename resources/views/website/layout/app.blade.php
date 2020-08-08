@@ -40,7 +40,7 @@
   <meta itemprop="keywords" content="<?php echo $metaTags['keywords']; ?>">
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://infinitbility.com">
+  <meta property="og:url" content="{{ url()->current() }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?php echo $metaTags['title']; ?>">
   <meta property="og:description" content="<?php echo $metaTags['description']; ?>">

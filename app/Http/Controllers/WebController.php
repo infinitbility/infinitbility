@@ -24,6 +24,7 @@ class WebController extends Controller
             ->select('posts.id','posts.title','posts.description','posts.image','posts.keywords','posts.url','posts.created_at','users.pic','users.first_name','users.last_name',)
             ->leftJoin('users', 'users.id', '=', 'posts.user_id')
             ->where('posts.status', 'Y')
+            ->orderBy('posts.id', 'DESC')
             ->paginate(10);
 
         $sponsers = DB::table('sponsers')->where('status', 'Y')->get();
