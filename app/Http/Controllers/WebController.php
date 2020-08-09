@@ -39,7 +39,7 @@ class WebController extends Controller
 
         # meta tags
         $metaTags = [
-            "title" => "Infinitbility - Infinite Ability",
+            "title" => "Infinitbility | Infinite Ability",
             "description" => "We have the ability to build infinite way for us",
             "image" => $imagePrefix."home-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability"
@@ -72,8 +72,8 @@ class WebController extends Controller
 
         # meta tags
         $metaTags = [
-            "title" => "Infinitbility - About",
-            "description" => "We have the ability to build infinite way for us",
+            "title" => "Infinitbility | About",
+            "description" => "I care not what others think of what I do, but I care very much about what I think of what I do! That is character! - Theodore Roosevelt",
             "image" => $imagePrefix."about-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability, about"
         ];
@@ -101,8 +101,8 @@ class WebController extends Controller
 
         # meta tags
         $metaTags = [
-            "title" => "Infinitbility - Contact",
-            "description" => "We have the ability to build infinite way for us",
+            "title" => "Infinitbility | Contact",
+            "description" => "The infinitbility is a pretty big place and you are always welcome here.",
             "image" => $imagePrefix."contact-bg.jpg",
             "keywords" => "Infinitbility, Infinite Ability, contact"
         ];
@@ -224,8 +224,8 @@ class WebController extends Controller
 
         # meta tags
         $metaTags = [
-            "title" => "Infinitbility - Privacy Policy",
-            "description" => "We have the ability to build infinite way for us",
+            "title" => "Infinitbility | Privacy Policy",
+            "description" => "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety",
             "image" => $imagePrefix."privacy-policy-background.jpg",
             "keywords" => "Infinitbility, Infinite Ability, about"
         ];
