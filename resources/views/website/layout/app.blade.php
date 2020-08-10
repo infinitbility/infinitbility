@@ -18,7 +18,6 @@
   <!-- ADS -->
   <script data-ad-client="ca-pub-6106226996374193" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- HTML Meta Tags -->
-  <title><?php echo $metaTags['title']; ?></title>
   <meta name="description" content="<?php echo $metaTags['description']; ?>">
   <meta name="keywords" content="<?php echo $metaTags['keywords']; ?>">
 
